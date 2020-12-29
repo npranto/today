@@ -1,0 +1,26 @@
+{
+  "name": "today",
+  "version": "0.0.1",
+  "description": "Today is a simple task manager web application to manage and overcome all your todos in a slightly simple way.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npranto/today.git"
+  },
+  "keywords": [
+    "today",
+    "task",
+    "manager",
+    "todos",
+    "notebook"
+  ],
+  "author": "Nazmuz Pranto <npranto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npranto/today/issues"
+  },
+  "homepage": "https://github.com/npranto/today#readme"
+}
