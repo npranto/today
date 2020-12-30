@@ -1,0 +1,8 @@
+.FollowUp {
+  background-color: lightgrey;
+}
+
+.FollowUp .tasks {
+  margin: 0;
+  padding-left: 0;
+}

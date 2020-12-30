@@ -1,3 +1,8 @@
 .ForToday {
   background-color: lightyellow;
 }
+
+.ForToday .tasks {
+  margin: 0;
+  padding-left: 0;
+}

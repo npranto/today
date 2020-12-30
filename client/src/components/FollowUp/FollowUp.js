@@ -2,20 +2,20 @@ import React from 'react'
 import AddTask from '../AddTask/AddTask';
 import Header from '../Header/Header';
 import Task from '../Task/Task';
-import './ForToday.css';
+import './FollowUp.css';
 
-export default function ForToday(props) {
+export default function FollowUp(props) {
   const { className = '' } = props;
   return (
-    <div className={`ForToday ${className}`}>
+    <div className={`FollowUp ${className}`}>
       <Header sm>
-        For Today
+        Follow Up
       </Header>
       <AddTask />
       <ul className="tasks">
-        <Task controlStatus removable />
-        <Task controlStatus removable />
-        <Task controlStatus removable />
+        <Task removable />
+        <Task removable />
+        <Task removable />
       </ul>
     </div>
   )
