@@ -1,0 +1,17 @@
+.Header {
+  background: lightsteelblue;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+.Header.sm {
+  font-size: 1em;
+}
+
+.Header.md {
+  font-size: 2em;
+}
+
+.Header.lg {
+  font-size: 2.5em;
+}

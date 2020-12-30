@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/npranto/today/issues"
   },
-  "homepage": "https://github.com/npranto/today#readme"
+  "homepage": "https://github.com/npranto/today#readme",
+  "dependencies": {}
 }
