@@ -1,0 +1,24 @@
+.NavBar {
+  background: lightgoldenrodyellow;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 2em;
+}
+
+.NavBar .header {
+  background: lightgray;
+}
+
+.NavBar .tabs {
+  background: lightgreen;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.NavBar .tab {
+  padding: 0.5em;
+  background: cornsilk;
+  margin-left: 0.5em;
+}

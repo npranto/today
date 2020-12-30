@@ -1,11 +1,16 @@
 import './App.css';
+import ForToday from './components/ForToday/ForToday';
+import Header from './components/Header/Header';
+import Navbar from './components/NavBar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Today!</h1>
-      </header>
+      <Navbar />
+      <Header lg className="date-header">
+        July 21, 2020
+      </Header>
+      <ForToday />
     </div>
   );
 }
