@@ -1,6 +1,8 @@
 .Task {
   display: flex;
-  padding: 0.5em;
+  margin: 0.5em 0;
+  border-left: 5px solid lightsalmon;
+  padding-left: 0.25em;
 }
 
 .task-content {

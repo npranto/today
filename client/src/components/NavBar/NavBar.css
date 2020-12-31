@@ -1,16 +1,15 @@
 .NavBar {
-  background: lightgoldenrodyellow;
+  /* background: lightgoldenrodyellow; */
   display: flex;
   flex-shrink: 0;
-  padding: 0 2em;
 }
 
 .NavBar .header {
-  background: lightgray;
+  /* background: lightgray; */
 }
 
 .NavBar .tabs {
-  background: lightgreen;
+  /* background: lightgreen; */
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
@@ -19,6 +18,6 @@
 
 .NavBar .tab {
   padding: 0.5em;
-  background: cornsilk;
+  /* background: cornsilk; */
   margin-left: 0.5em;
 }

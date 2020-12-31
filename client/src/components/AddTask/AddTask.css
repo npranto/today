@@ -1,5 +1,4 @@
-.AddTask {
-  all: unset;
+.AddTaskButton {
   cursor: pointer;
   padding: 0.5em;
   display: flex;
@@ -7,10 +6,24 @@
   color: black;
 }
 
-.AddTask.hovering {
+.AddTaskButton.hover {
   color: #0077CC;
 }
 
-.AddTask span {
+.AddTaskButton span {
   margin-left: 5px;
+}
+
+.AddTaskField {
+  display: flex;
+  width: 50%;
+}
+
+.AddTaskField input {
+  flex-grow: 1;
+  padding: 0.5em;
+}
+
+.AddTaskField button {
+  flex-shrink: 0;
 }
